@@ -40,10 +40,11 @@ ageCalculator(1991, 2023);
 
 
 // EXERCISES 5 - AGE CALCULATOR IMPROVED
-function ageCalculator(birthYear) {
-    x = function getFullYear(Date);
-    // age = getFullYear() - birthYear;
-    // console.log(`You are either ${age - 1} or ${age}.`);
+function betterAgeCalculator(birth) {
+    let date = new Date();
+    let year = date.getFullYear();
+    betterAge = year - birth;
+    console.log(`You are either ${betterAge - 1} or ${betterAge}.`);
 }
 
-// ageCalculator(1991);
+betterAgeCalculator(1991);
