@@ -7,3 +7,14 @@ if (temperature <= 10) {
 } else {
     console.log("The weather is moderate");
 }
+
+
+// EXERCISE 2 - RANDOM FOOD
+const favoriteFoods = ["pizza", "hamburger", "ice cream", "chocolate"];
+
+function randomFood() {
+    let x = favoriteFoods[Math.floor(Math.random() * 4)];
+    console.log(x);
+}
+
+randomFood();
