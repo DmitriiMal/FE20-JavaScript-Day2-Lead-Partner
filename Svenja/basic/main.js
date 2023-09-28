@@ -18,3 +18,11 @@ function randomFood() {
 }
 
 randomFood();
+
+
+// EXERCISE 3 - CRYSTAL GAZER
+function crystalGazer(children, partner, location, job) {
+    document.write(`You will be ${job} in ${location} and married to ${partner} with ${children}.`);
+}
+
+crystalGazer("3 children", "Sebastian", "Vienna", "an architect");
