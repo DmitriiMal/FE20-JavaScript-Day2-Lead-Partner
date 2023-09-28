@@ -52,21 +52,45 @@
 
 // ex 4 | Age Calculator
 
-function ageCalculator(birtYear, currYear) {
-  let result1 = currYear - birtYear;
-  let result2 = (currYear - birtYear) - 1;
-  return `You are either ${result1} or ${result2}`
+// function ageCalculator(birtYear, currYear) {
+//   let result1 = currYear - birtYear;
+//   let result2 = (currYear - birtYear) - 1;
+//   return `You are either ${result1} or ${result2}`
+// }
+
+// console.log(ageCalculator(1989, 2023));
+
+
+// ex 5 | Age Calculator-improved
+
+// const d = new Date();
+// const currYear = d.getFullYear();
+
+// function ageCalculator(birtYear) {
+//   let result1 = currYear - birtYear;
+//   let result2 = (currYear - birtYear) - 1;
+//   return `You are either ${result1} or ${result2}`
+// }
+
+// console.log(ageCalculator(1989));
+
+
+// ex 6 | Degree-Radian Conversion
+
+function getGradians(degrees) {
+
+  let radians = degrees * (Math.PI / 180);
+
+  let message = `${degrees} degrees equals to ${radians.toFixed(3)} radians`;
+  return message;
 }
 
-console.log(ageCalculator(1989, 2023));
+console.log(getGradians(90));
+
+
+// ex 7 | Area and Volume of a box
 
 
 
 
 
-
-
-
-// function getRandomArbitrary(min, max) {
-//   return Math.random() * (max - min) + min;
-// }
