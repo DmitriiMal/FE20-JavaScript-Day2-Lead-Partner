@@ -1,4 +1,3 @@
-/*
 // EXERCISE 1 - TEMPERATURE
 let temperature = Math.floor((Math.random() * 31) - 5);
 console.log(temperature);
@@ -36,7 +35,6 @@ function ageCalculator(birthYear, currentYear) {
 }
 
 ageCalculator(1991, 2023);
-*/
 
 
 // EXERCISES 5 - AGE CALCULATOR IMPROVED
@@ -48,3 +46,24 @@ function betterAgeCalculator(birth) {
 }
 
 betterAgeCalculator(1991);
+
+
+// EXERCISE 6 - DEGREE-RADIAN CONVERSION
+function converter(deg) {
+    rad = (deg * (Math.PI / 180)).toFixed(2);
+    console.log(rad);
+}
+
+converter(90);
+
+
+// EXERCISE 7 - AREA & VOLUME
+function calculator(width, height, depth) {
+    area = width * height;
+    volume = area * depth;
+
+    let result = [area, volume];
+    console.log(result);
+}
+
+calculator(10, 10, 10);
