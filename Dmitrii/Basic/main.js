@@ -30,29 +30,35 @@
 
 // ex 2 | Random Food
 
+// const favoriteFoods = ['pizza', 'hamburger', 'ice cream', 'chocolate']
 
-const favoriteFoods = ['pizza', 'hamburger', 'ice cream', 'chocolate']
+// function randomFood() {
+//   let randNum = Math.floor(Math.random() * 4);
+//   let result = favoriteFoods[randNum];
+//   return result
+// }
 
-function randomFood() {
-  let randNum = Math.floor(Math.random() * 4);
-  let result = favoriteFoods[randNum];
-  return result
-}
-
-console.log(randomFood());
+// console.log(randomFood());
 
 
 // ex 3 | Crystal Gazer
 
+// function crystalGazer(children, partnersName, location, title) {
+//   console.log(`You will be a ${title} in ${location} and married to ${partnersName} with ${children} children(s).`);
+// }
+
+// crystalGazer(1, 'Magda', 'Vienna', 'Web Developer');
 
 
+// ex 4 | Age Calculator
 
+function ageCalculator(birtYear, currYear) {
+  let result1 = currYear - birtYear;
+  let result2 = (currYear - birtYear) - 1;
+  return `You are either ${result1} or ${result2}`
+}
 
-
-
-
-
-
+console.log(ageCalculator(1989, 2023));
 
 
 
