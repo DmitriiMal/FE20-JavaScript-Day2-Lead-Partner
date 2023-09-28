@@ -1,3 +1,4 @@
+/*
 // EXERCISE 1 - TEMPERATURE
 let temperature = Math.floor((Math.random() * 31) - 5);
 console.log(temperature);
@@ -26,3 +27,23 @@ function crystalGazer(children, partner, location, job) {
 }
 
 crystalGazer("3 children", "Sebastian", "Vienna", "an architect");
+
+
+// EXERCISES 4 - AGE CALCULATOR
+function ageCalculator(birthYear, currentYear) {
+    age = currentYear - birthYear;
+    console.log(`You are either ${age - 1} or ${age}.`);
+}
+
+ageCalculator(1991, 2023);
+*/
+
+
+// EXERCISES 5 - AGE CALCULATOR IMPROVED
+function ageCalculator(birthYear) {
+    x = function getFullYear(Date);
+    // age = getFullYear() - birthYear;
+    // console.log(`You are either ${age - 1} or ${age}.`);
+}
+
+// ageCalculator(1991);
