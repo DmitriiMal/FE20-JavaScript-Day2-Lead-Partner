@@ -51,10 +51,10 @@ betterAgeCalculator(1991);
 // EXERCISE 6 - DEGREE-RADIAN CONVERSION
 function converter(deg) {
     rad = (deg * (Math.PI / 180)).toFixed(2);
-    console.log(rad);
+    ;
 }
 
-converter(90);
+console.log(converter(90));
 
 
 // EXERCISE 7 - AREA & VOLUME
